@@ -1,0 +1,127 @@
+html {
+    background-color: hsl(0, 0%, 95%);
+}
+
+.flex-container {
+    margin-top: 150px;
+    display: flex;
+    width: 800px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cont1 {
+    background-color: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.cont2 {
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+img {
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    margin-left: 35px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+    color: hsl(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-family: 'Lexend Deca', sans-serif;
+    flex-grow: 3;
+}
+
+button {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    padding: 12px 28px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.cont3 {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.cont1 button {
+    color: hsl(31, 77%, 52%);
+}
+
+.cont1 button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.cont2 button {
+    color: hsl(184, 100%, 22%)
+}
+
+.cont2 button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.cont3 button {
+    color: hsl(179, 100%, 13%);
+}
+
+.cont3 button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+@media only screen and (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+        margin-top: 20px;
+        width: 80%;
+        height: 1500px;
+    }
+    .cont1 {
+        height: 500px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0;
+    }
+    .cont2 {
+        height: 500px;
+    }
+    p {
+        flex-grow: 0;
+    }
+    .cont3 {
+        height: 500px;
+        border-bottom-left-radius: 8px;
+        border-top-right-radius: 0;
+    }
+}
