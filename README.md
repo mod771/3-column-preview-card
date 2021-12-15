@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/mod771/3-column-preview-card/tree/main 
-- Live Site URL: https://mod771.github.io/3-column-preview-card/
+- Solution URL: https://github.com/paolas771/3-column-preview-card/tree/main 
+- Live Site URL: https://paolas771.github.io/3-column-preview-card/
 
 ## My process
 
